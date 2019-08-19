@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "all": "node-sass --include-path src --include-path node_modules/bootstrap-sass/assets/stylesheets/ --output-style compressed src -o dist",
+    "login": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctbuh/bootstrap4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctbuh/bootstrap4/issues"
+  },
+  "homepage": "https://github.com/ctbuh/bootstrap4#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "node-sass": "^4.12.0"
+  }
+}
